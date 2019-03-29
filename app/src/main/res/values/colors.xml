@@ -3,4 +3,14 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
+    <color name="black">#000</color>
+    <color name="orange">#fba800</color>
+    <color name="wine">#722f37</color>
+    <color name="blueViolet">#8a2be2</color>
+    <color name="DarkBlue">#003366</color>
+    <color name="blue">#F80000EB</color>
+    <color name="dblue">#CD0A0AC4</color>
+    <color name="darkAqua">#00A998</color>
+    <color name="darkGreen">#004D40</color>
+    <color name="product_textC">#fff</color>
 </resources>

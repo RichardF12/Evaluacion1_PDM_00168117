@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">EvaluacionPDM1</string>
+    <string name="tc_contador_de_productos">Contador de productos</string>
+    <string name="tv_producto_1">Producto 1</string>
+    <string name="cont_placeholder">#</string>
+    <string name="tv_usuario">Usuario</string>
+    <string name="hint_usuario">Escribe el usuario aqui</string>
+    <string name="hint_correo">Escribe el usuario aqui</string>
 </resources>
