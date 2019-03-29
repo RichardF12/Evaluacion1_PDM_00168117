@@ -6,4 +6,5 @@
     <string name="tv_usuario">Usuario</string>
     <string name="hint_usuario">Escribe el usuario aqui</string>
     <string name="hint_correo">Escribe el usuario aqui</string>
+    <string name="send_txt">send</string>
 </resources>
