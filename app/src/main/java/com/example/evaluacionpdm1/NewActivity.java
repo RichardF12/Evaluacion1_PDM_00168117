@@ -1,5 +1,6 @@
 package com.example.evaluacionpdm1;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.LinearLayout;
@@ -13,5 +14,10 @@ public class NewActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_new);
+        Intent mIntent = getIntent();
+
+        user = findViewById(R.id.showUser);
+        mail = findViewById(R.id.showMail);
+        total = findViewById(R.id.showTotal);
     }
 }
