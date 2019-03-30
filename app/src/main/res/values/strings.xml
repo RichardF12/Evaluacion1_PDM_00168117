@@ -7,4 +7,6 @@
     <string name="hint_usuario">Escribe el usuario aqui</string>
     <string name="hint_correo">Escribe el usuario aqui</string>
     <string name="send_txt">send</string>
+    <string name="tv_factura">Factura</string>
+    <string name="btn_share">share</string>
 </resources>

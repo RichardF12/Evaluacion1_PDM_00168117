@@ -1,20 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="10dp"
-    tools:context=".MainActivity">
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".NewActivity">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/tc_contador_de_productos"
+        android:text="@string/tv_factura"
         android:textSize="16sp"
         android:textColor="@color/black"
         android:layout_gravity="center"
         android:layout_marginBottom="15dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_usuario"
+        android:textColor="@color/black"/>
+    <TextView
+        android:id="@+id/showUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Correo Electronico"
+        android:textColor="@color/black"/>
+    <TextView
+        android:id="@+id/showMail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -23,7 +42,7 @@
         android:layout_marginBottom="10dp">
 
         <LinearLayout
-            android:id="@+id/prod_1"
+            android:id="@+id/prod1"
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
@@ -40,13 +59,13 @@
                 />
 
             <TextView
-                android:id="@+id/cont_1"
+                android:id="@+id/tv_cont_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="@color/product_textC"/>
         </LinearLayout>
         <LinearLayout
-            android:id="@+id/prod_2"
+            android:id="@+id/prod2"
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
@@ -63,13 +82,13 @@
                 />
 
             <TextView
-                android:id="@+id/cont_2"
+                android:id="@+id/tv_cont_2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="@color/product_textC"/>
         </LinearLayout>
         <LinearLayout
-            android:id="@+id/prod_3"
+            android:id="@+id/prod3"
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
@@ -85,7 +104,7 @@
                 />
 
             <TextView
-                android:id="@+id/cont_3"
+                android:id="@+id/tv_cont_3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="@color/product_textC"/>
@@ -99,7 +118,7 @@
         android:layout_marginBottom="10dp">
 
         <LinearLayout
-            android:id="@+id/prod_4"
+            android:id="@+id/prod4"
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
@@ -116,13 +135,13 @@
                 />
 
             <TextView
-                android:id="@+id/cont_4"
+                android:id="@+id/tv_cont_4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="@color/product_textC"/>
         </LinearLayout>
         <LinearLayout
-            android:id="@+id/prod_5"
+            android:id="@+id/prod5"
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
@@ -139,13 +158,13 @@
                 />
 
             <TextView
-                android:id="@+id/cont_5"
+                android:id="@+id/tv_cont_5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="@color/product_textC"/>
         </LinearLayout>
         <LinearLayout
-            android:id="@+id/prod_6"
+            android:id="@+id/prod6"
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
@@ -161,7 +180,7 @@
                 />
 
             <TextView
-                android:id="@+id/cont_6"
+                android:id="@+id/tv_cont_6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="@color/product_textC"/>
@@ -175,7 +194,7 @@
         android:layout_marginBottom="10dp">
 
         <LinearLayout
-            android:id="@+id/prod_7"
+            android:id="@+id/prod7"
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
@@ -192,13 +211,13 @@
                 />
 
             <TextView
-                android:id="@+id/cont_7"
+                android:id="@+id/tv_cont_7"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="@color/product_textC"/>
         </LinearLayout>
         <LinearLayout
-            android:id="@+id/prod_8"
+            android:id="@+id/prod8"
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
@@ -215,13 +234,13 @@
                 />
 
             <TextView
-                android:id="@+id/cont_8"
+                android:id="@+id/tv_cont_8"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="@color/product_textC"/>
         </LinearLayout>
         <LinearLayout
-            android:id="@+id/prod_9"
+            android:id="@+id/prod9"
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
@@ -237,7 +256,7 @@
                 />
 
             <TextView
-                android:id="@+id/cont_9"
+                android:id="@+id/tv_cont_9"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="@color/product_textC"/>
@@ -245,31 +264,11 @@
 
     </LinearLayout>
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/tv_usuario"
-        android:textColor="@color/black"/>
-    <EditText
-        android:id="@+id/username"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="@string/hint_usuario"/>
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Correo Electronico"
-        android:textColor="@color/black"/>
-    <EditText
-        android:id="@+id/mail"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="@string/hint_correo"/>
     <Button
-        android:id="@+id/btn_send"
+        android:id="@+id/btn_share"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/send_txt"/>
+        android:layout_gravity="center"
+        android:text="@string/btn_share"/>
 
 </LinearLayout>
